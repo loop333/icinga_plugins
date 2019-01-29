@@ -18,15 +18,15 @@ use lib "/monitor/icinga/libexec";
 use range;
 use Net::SSH2;
 
-$ARGV[0] = "srv-ium1";
-$ARGV[1] = "ium";
-$ARGV[2] = "/monitor/icinga/etc/id_rsa.pub";
-$ARGV[3] = "/monitor/icinga/etc/id_rsa";
-$ARGV[4] = "/monitor/icinga/etc/sh/test.sh";
-$ARGV[5] = "LABEL";
-$ARGV[6] = "0";
-$ARGV[7] = "0";
-$ARGV[8] = "?";
+# $ARGV[0] = "host";
+# $ARGV[1] = "username";
+# $ARGV[2] = "/monitor/icinga/etc/id_rsa.pub";
+# $ARGV[3] = "/monitor/icinga/etc/id_rsa";
+# $ARGV[4] = "/monitor/icinga/etc/sh/test.sh";
+# $ARGV[5] = "LABEL";
+# $ARGV[6] = "0";
+# $ARGV[7] = "0";
+# $ARGV[8] = "?";
 
 if (!defined($ARGV[8])) {
  $ARGV[8] = "?";
