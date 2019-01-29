@@ -8,6 +8,14 @@ use lib "/monitor/icinga/libexec";
 use range;
 use DBI;
 
+# 0 tns
+# 1 username
+# 2 password
+# 3 sql file
+# 4 label
+# 5 warning
+# 6 critical
+
 open(INFILE,"<$ARGV[3]");
 my @sql = <INFILE>;
 close(INFILE);
